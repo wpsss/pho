@@ -1,0 +1,22 @@
+{
+  "name": "wpstack/pho",
+  "description": "A flexible WordPress starter theme.",
+  "type": "wordpress-theme",
+  "require": {
+    "composer/installers": "^1.0",
+    "johnpbloch/wordpress": "^4.5",    
+    "wpstack/banhmi": "^1.0.0"
+  },
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "wpstack",
+      "email": "wordpressstack@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Pho\\": "libraries/"
+    }
+  }
+}

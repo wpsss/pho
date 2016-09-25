@@ -1,0 +1,9 @@
+.tabs {
+  border-bottom: 1px solid #ddd;
+}
+.nav-tab {
+  cursor: pointer;margin:0 .5px;
+  &.tab-active {
+    background-color:#fff;
+  }
+}
